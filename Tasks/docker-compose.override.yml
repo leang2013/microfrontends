@@ -1,0 +1,19 @@
+version: "3.4"
+
+services:
+  simba-tasks-web:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.simba-tasks-web.rule=PathPrefix(`/`)"
+      - "traefik.http.routers.simba-tasks-web.middlewares=simba-tasks-web@docker"
+      - "traefik.http.services.simba-tasks-web.loadbalancer.server.port=3002"
+      - "traefik.http.middlewares.simba-tasks-web.headers.accesscontrolallowmethods=GET,OPTIONS,PUT"
+      - "traefik.http.middlewares.simba-tasks-web.headers.accesscontrolalloworigin=*"
+      - "traefik.http.middlewares.simba-tasks-web.headers.accesscontrolmaxage=100"
+      - "traefik.http.middlewares.simba-tasks-web.headers.addvaryheader=true"
+    networks:
+      - simba
+
+networks:
+  simba:
+    external: true

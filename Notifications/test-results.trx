@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0ffb7f77-391d-4a83-ab85-e0320f664e3e" name="LeandroMartinez@LAPTOP-7ENMOBPP 2021-01-19T12:39:08.885Z" runUser="LeandroMartinez" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="b25b5cae-eb8d-4d43-a9f1-dba9bf669e9b"/>
+  <Times creation="2021-01-19T12:39:08.885Z" queuing="2021-01-19T12:39:08.885Z" start="2021-01-19T12:39:08.885Z" finish="2021-01-19T12:39:08.885Z"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Grid Component renders the text inside it" id="15cee476-d5fd-40b2-9e61-af066832630c" storage="src\tests\components\grid\index.spec.js">
+      <Execution id="01b5a7de-eaae-4f65-9a4f-d225b0a6432d"/>
+      <TestMethod codeBase="src\tests\components\grid\index.spec.js" name="Grid Component renders the text inside it" className="No suite"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="15cee476-d5fd-40b2-9e61-af066832630c" executionId="01b5a7de-eaae-4f65-9a4f-d225b0a6432d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="15cee476-d5fd-40b2-9e61-af066832630c" executionId="01b5a7de-eaae-4f65-9a4f-d225b0a6432d" testName="Grid Component renders the text inside it" computerName="LAPTOP-7ENMOBPP" duration="00:00:02.381" startTime="2021-01-19T12:39:09.613Z" endTime="2021-01-19T12:39:11.994Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </Results>
+</TestRun>

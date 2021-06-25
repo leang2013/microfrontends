@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  simba-main-web:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.simba-main-web.rule=PathPrefix(`/`)"
+      - "traefik.http.services.simba-main-web.loadbalancer.server.port=3000"
+    networks:
+      - simba
+
+networks:
+  simba:
+    external: true

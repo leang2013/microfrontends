@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="7" lines-covered="5" line-rate="0.7143" branches-valid="1" branches-covered="1" branch-rate="1" timestamp="1611059952021" complexity="0" version="0.1">
+  <sources>
+    <source>C:\Repositories\Simba\bc\Tasks\fe</source>
+  </sources>
+  <packages>
+    <class name="index.js" filename="src\components\grid\index.js" line-rate="0.6667000000000001" branch-rate="1">
+      <methods>
+        <method name="(anonymous_0)" hits="1" signature="()V">
+          <lines>
+            <line number="17" hits="1"/>
+          </lines>
+        </method>
+        <method name="(anonymous_1)" hits="0" signature="()V">
+          <lines>
+            <line number="47" hits="0"/>
+          </lines>
+        </method>
+        <method name="(anonymous_2)" hits="0" signature="()V">
+          <lines>
+            <line number="50" hits="0"/>
+          </lines>
+        </method>
+      </methods>
+      <lines>
+        <line number="17" hits="1" branch="true" condition-coverage="100% (1/1)"/>
+        <line number="18" hits="1" branch="false"/>
+        <line number="20" hits="1" branch="false"/>
+        <line number="47" hits="0" branch="false"/>
+        <line number="50" hits="0" branch="false"/>
+        <line number="61" hits="1" branch="false"/>
+      </lines>
+    </class>
+    <class name="styles.js" filename="src\components\grid\styles.js" line-rate="1" branch-rate="1">
+      <methods>
+      </methods>
+      <lines>
+        <line number="3" hits="1" branch="false"/>
+      </lines>
+    </class>
+  </packages>
+</coverage>

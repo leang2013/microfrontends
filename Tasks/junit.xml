@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="3.141">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-01-19T12:39:09" time="2.381" tests="1">
+    <testcase classname=" Grid Component renders the text inside it" name=" Grid Component renders the text inside it" time="0.095">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+version: "3.4"
+
+services:
+  simba-notifications-web:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.simba-notifications-web.rule=PathPrefix(`/`)"
+      - "traefik.http.routers.simba-notifications-web.middlewares=simba-notifications-web@docker"
+      - "traefik.http.services.simba-notifications-web.loadbalancer.server.port=3001"
+      - "traefik.http.middlewares.simba-notifications-web.headers.accesscontrolallowmethods=GET,OPTIONS,PUT"
+      - "traefik.http.middlewares.simba-notifications-web.headers.accesscontrolalloworigin=*"
+      - "traefik.http.middlewares.simba-notifications-web.headers.accesscontrolmaxage=100"
+      - "traefik.http.middlewares.simba-notifications-web.headers.addvaryheader=true"
+    networks:
+      - simba
+
+networks:
+  simba:
+    external: true

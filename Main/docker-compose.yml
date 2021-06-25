@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  simba-main-web:
+    image: ${DOCKER_REGISTRY-}simba-main-web
+    build:
+      context: .
+      dockerfile: Dockerfile

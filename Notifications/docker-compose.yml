@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  simba-notifications-web:
+    image: ${DOCKER_REGISTRY-}simba-notifications-web
+    build:
+      context: .
+      dockerfile: Dockerfile
