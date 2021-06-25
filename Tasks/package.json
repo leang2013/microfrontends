@@ -95,11 +95,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test && npm run lint",
-      "pre-push": "npm run test && npm run lint"
-    }
   }
 }
