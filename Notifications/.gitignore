@@ -21,6 +21,13 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
+junit.xml
+
+# Lint directory report
+report
+
+# Test results
+test-results.trx
 
 # nyc test coverage
 .nyc_output
@@ -38,7 +45,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+!node_modules/**
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -102,26 +109,3 @@ dist
 
 # TernJS port file
 .tern-port
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
